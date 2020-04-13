@@ -2,7 +2,7 @@ class Keypad {
     public:
         Keypad(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
         void init(void);
-        unsigned char readKeyPad();
+        char readKeyPad();
        
 
     private:
